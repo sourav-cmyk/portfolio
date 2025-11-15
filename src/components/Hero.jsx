@@ -44,11 +44,9 @@ const Hero = () => {
       {/* Hero Content */}
       <div className="h-screen flex flex-col justify-center items-center text-center px-4">
         {/* Profile Image */}
-        <img
-          src="../src/assets/profile.jpg"
-          alt="Sourav Mondal"
-          className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full mb-6 border-4 border-primary shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl"
-        />
+<img  src="/images/profile.jpg" alt="Loading..."
+className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full mb-6 border-4 border-primary shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl"
+/>
 
         {/* Typing Text */}
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
